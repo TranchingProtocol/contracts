@@ -1,4 +1,4 @@
-# Tranching: Smart Contracts
+# Tranching Protocol: Smart Contracts
 
 
 Tranching is a layer 2 rollup that uses zero-knowledge proofs to scale Ethereum without compromising on security or
