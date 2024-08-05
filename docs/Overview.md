@@ -86,9 +86,6 @@ approval without timelock.
 
 #### MailboxFacet
 
-The facet that handles L2 <-> L1 communication, an overview for which can be found in
-[docs](https://era.micro.io/docs/dev/developer-guides/bridging/l1-l2-interop.html).
-
 The Mailbox performs three functions:
 
 - L1 <-> L2 communication.
