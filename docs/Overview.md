@@ -1,6 +1,6 @@
 # Overview
 
-zkAmoeba is a permissionless general-purpose ZK rollup. Similar to many L1 blockchains and sidechains it enables
+Tranching is a permissionless general-purpose ZK rollup. Similar to many L1 blockchains and sidechains it enables
 deployment and interaction with Turing-complete smart contracts.
 
 - L2 smart contracts are executed on a zkEVM.
@@ -23,7 +23,7 @@ See the [documentation](https://era.micro.io/docs/dev/fundamentals/rollups.html)
 - **L2 batch (or just batch)** - An aggregation of multiple L2 blocks. Note, that while the API operates on L2 blocks, the prove system operates on batches, which represent a single proved VM execution, which typically contains multiple L2 blocks.
 - **Facet** - implementation contract. The word comes from the EIP-2535.
 - **Gas** - a unit that measures the amount of computational effort required to execute specific operations on the
-  zkAmoeba network.
+  Tranching network.
 
 ### L1 Smart contracts
 
@@ -72,7 +72,7 @@ upgrades in the diamond proxy.
 
 This contract manages operations (calls with preconditions) for governance tasks. The contract allows for operations to be scheduled,
 executed, and canceled with appropriate permissions and delays. It is used for managing and coordinating upgrades and changes in all
-zkAmoeba governed contracts.
+tranching governed contracts.
 
 Each upgrade consists of two steps:
 
@@ -123,8 +123,8 @@ function applyL1ToL2Alias(address l1Address) internal pure returns (address l2Ad
 ```
 
 For most of the rollups the address aliasing needs to prevent cross-chain exploits that would otherwise be possible if
-we simply reused the same L1 addresses as the L2 sender. In zkAmoeba address derivation rule is different from the
-Ethereum, so cross-chain exploits are already impossible. However, zkAmoeba may add full EVM support in the future, so
+we simply reused the same L1 addresses as the L2 sender. In tranching address derivation rule is different from the
+Ethereum, so cross-chain exploits are already impossible. However, tranching may add full EVM support in the future, so
 applying address aliasing leave room for future EVM compatibility.
 
 The L1 -> L2 communication is also used for bridging ether. The user should include a `msg.value` when initiating a

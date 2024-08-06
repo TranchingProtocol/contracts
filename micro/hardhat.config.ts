@@ -26,7 +26,7 @@ export default {
   networks: {
     localhost: {
       // micro-test-node default url
-      url: "http://127.0.0.1:8011",
+      url: "http://127.0.0.1:8545",
       ethNetwork: null,
       micro: true,
     },

@@ -18,12 +18,11 @@ others may not.
 
 Tranching contracts are distributed under the terms of the MIT license.
 
-See [LICENSE-MIT](LICENSE-MIT) for details.
 
 ## Official Links
 
 - [Website](https://tranching.com/)
-- [GitHub](https://github.com/tidalchain)
+- [GitHub](https://github.com/TranchingProtocol)
 - [Twitter](https://twitter.com/TranchingPro)
 
 ## Disclaimer
