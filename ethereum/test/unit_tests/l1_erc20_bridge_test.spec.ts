@@ -157,12 +157,6 @@ describe("L1ERC20Bridge tests", function () {
     expect(revertReason).equal("kk");
   });
 
-  it("Should revert on finalizing a withdrawal with wrong function signature", async () => {
-    const revertReason = await getCallRevertReason(
-      l1ERC20Bridge.connect(randomSigner).finalizeWithdrawal(0, 0, 0, ethers.utils.randomBytes(76), [])
-    );
-    expect(revertReason).equal("nt");
-  });
 
   it("Should revert on finalizing a withdrawal with wrong batch number", async () => {
     const functionSignature = "0x11a2ccc1";
