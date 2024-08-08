@@ -20,7 +20,7 @@ import "../common/libraries/L2ContractHelper.sol";
 import "../common/ReentrancyGuard.sol";
 import "../vendor/AddressAliasHelper.sol";
 
-/// @author ZKAmoeba Micro
+/// @author Tranching
 /// @custom:security-contact security@zkamoeba.dev
 /// @notice Smart contract that allows depositing ERC20 tokens from Ethereum to zkAmoeba
 /// @dev It is standard implementation of ERC20 Bridge that can be used as a reference

@@ -20,8 +20,8 @@ import "../common/libraries/L2ContractHelper.sol";
 import {L2_ETH_TOKEN_SYSTEM_CONTRACT_ADDR} from "../common/L2ContractAddresses.sol";
 import "../vendor/AddressAliasHelper.sol";
 
-/// @author ZKAmoeba Micro
-/// @custom:security-contact security@zkamoeba.dev
+/// @author Tranching
+/// @custom:security-contact support@tidalchain.com
 /// @dev This contract is designed to streamline and enhance the user experience
 /// for bridging WETH tokens between L1 and L2 networks. The primary goal of this bridge is to
 /// simplify the process by minimizing the number of transactions required, thus improving
