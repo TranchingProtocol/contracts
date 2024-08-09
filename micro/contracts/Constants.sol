@@ -6,7 +6,7 @@ pragma solidity ^0.8.0;
 /// started from 2^15 in order to avoid collision with Ethereum precompiles.
 uint160 constant SYSTEM_CONTRACTS_OFFSET = 0x8000; // 2^15
 
-address constant ETH_TOKEN_ADDRESS = address(SYSTEM_CONTRACTS_OFFSET + 0x0a);
+address constant ETH_TOKEN_ADDRESS = address(SYSTEM_CONTRACTS_OFFSET + 0x0b);
 
 address constant DEPOSIT_ADDRESS = address(SYSTEM_CONTRACTS_OFFSET + 0x100);
 

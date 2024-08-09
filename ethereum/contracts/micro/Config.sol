@@ -30,7 +30,7 @@ uint256 constant MAX_INITIAL_STORAGE_CHANGES_COMMITMENT_BYTES = 4 + INITIAL_STOR
 uint256 constant REPEATED_STORAGE_CHANGE_SERIALIZE_SIZE = 40;
 
 /// @dev The maximum length of the bytes array with repeated storage changes
-uint256 constant MAX_REPEATED_STORAGE_CHANGES_COMMITMENT_BYTES = 4 + REPEATED_STORAGE_CHANGE_SERIALIZE_SIZE * 7564;
+uint256 constant MAX_REPEATED_STORAGE_CHANGES_COMMITMENT_BYTES = 4 + REPEATED_STORAGE_CHANGE_SERIALIZE_SIZE * 4765;
 
 // TODO: change constant to the real root hash of empty Merkle tree (SMA-184)
 bytes32 constant DEFAULT_L2_LOGS_TREE_ROOT_HASH = bytes32(0);

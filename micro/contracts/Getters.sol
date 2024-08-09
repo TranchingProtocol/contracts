@@ -54,7 +54,7 @@ contract Getters is IGetters {
         return IDeposit(DEPOSIT_ADDRESS).getDepositTime(_prover, token);
     }
 
-    function getWaitingTime() external view returns (uint256) {
+    function getWaitingTime() external pure returns (uint256) {
         return IDeposit(DEPOSIT_ADDRESS).getWaitingTime();
     }
 
